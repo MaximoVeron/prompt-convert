@@ -2,6 +2,7 @@ let menu=true;
 const valorUSD=1300;
 let ars,usd;
 let result;
+//inicializa el array
 let history = [];
 while (menu==true ){
     let eleccion=prompt("Menu\n1)Pesos a dolares\n2)Dolares a pesos\n3)Salir");
@@ -34,5 +35,6 @@ while (menu==true ){
         });
     }
 }
+//historial en la consola 
 console.log("Historial de conversiones:");
 console.table(history);
